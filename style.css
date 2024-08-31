@@ -1,28 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-/* 
-.nav-bar{
-    padding-left: 20%;
-} */
-/* .btn{
-    width: 115px;
-} */
-/* .name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 200px;
-
- } */
-   /* body{
-    margin: auto;
-   } */
 .hero-sec{
     width: 400px;
     height: 250px;
@@ -38,11 +14,7 @@
     
    margin: auto;
 }
-/* .global-img{
-    
-    width: 850px;
-    height: 450px;
-} */
+
 .glb{
     margin-top: 100px;
 }
@@ -55,43 +27,25 @@
     height: 100px;
 
 }
-/* .hero-5{
-    width: 150px;
-    height: 55px;
-    
 
-} */
-/* .list ul{
-    list-style-type: none;
-    width: 20%;
-    padding: 0px;
-    display:flex;
-
-
-}
-.list{
-    display: flex;
-    justify-content: space-between;
-} */
 .box{
     width: 100%;
     height:max-content;
     background-color:#f8ebeb;
 }
-/* .foot{
-    margin-top: 50px;
-} */
-/* .foot-1{
-    width: 10px;
-} */
+
+.hero-btn{
+    width: 250px;
+}
 
 @media screen and (max-width: 1320px){
-    .hero-btn{
-        width: 200px;
-    }
+   
     .global-img{
-        width: 950px;
+        width: 800px;
         height: 400px;
+    }
+    .hero-btn{
+        width: 250px;
     }
 
 }
@@ -104,33 +58,39 @@
     .hero-hed2{
         font-size: 15px;
     }
-    .hero-btn{
-        width: 200px;
-    }
+
     .ender{
         text-align: center;
 
     }
-    .ender2{
-        margin-left: 100px;
-    }
+   
     .global-img{
-        width: 700px;
+        width:600px;
         height: 400px;
+    }
+    .cotn-img{
+        width: 380px;
+        height: 280px;
+    }
+    .hero-btn{
+        width: 250px;
+    }
+    .hero-sec{
+        width: 350px;
+        height: 250px;
+
     }
 
 }
 @media screen and (max-width:480px){
     .hero-hed{
-        font-size:18px;
+        font-size:25px;
     }
     .hero-hed2{
         font-size: 15px;
-        text-align: justify;
+        
     }
-    .hero-btn{
-        width: 105px;
-    }
+
     .footer{
         flex-wrap: wrap;
     }
@@ -147,14 +107,27 @@
         height: 70px;
     
     }
+    .cotn-img{
+        width: 380px;
+        height: 280px;
+    }
+    .card-res{
+        width: 100px;
+        height: 120px;
+    }
+    .hero-btn{
+        width: 250px;
+    }
+
+    
 
 }
 @media screen and (max-width:380px){
     .hero-hed{
-        font-size:14px;
+        font-size:18px;
     }
     .hero-hed2{
-        font-size: 12px;
+        font-size: 14px;
     }
     .global-img{
         width: 250px;
@@ -169,5 +142,24 @@
         height: 70px;
     
     }
+    .cotn-img{
+        width: 300px;
+        height: 220px;
+    }
+    .card-res{
+        width: 100px;
+        height: 120px;
+    }
+    .hero-btn{
+        width: 250px;
+       margin-left: 20px;
+    }
+    .res-hed{
+        font-size:20px;
+
+    }
+    .res-hed2{
+        font-size:14px;
+
+    }
 }
-    
