@@ -1,4 +1,8 @@
-
+.xyy{
+    background-color: #ffff;
+    border-radius: 12px;
+    box-shadow: 5px 3px 15px 8px #ecc4c4;
+}
 .hero-sec{
     width: 400px;
     height: 250px;
